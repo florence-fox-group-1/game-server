@@ -159,7 +159,7 @@ let currentresult = {
   num: 1,
   color: 'red'
 }
-let seconds = 5
+let seconds = 15
 
 
 // ? socket.io here
@@ -168,7 +168,7 @@ io.on('connect', socket => {
 
   // ? play = merandom result
   socket.on('play', () => {
-    seconds = 5
+    seconds = 15
 
     const index = Math.floor(Math.random() * probability.length)
     currentresult = probability[index]
