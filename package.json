@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/florence-fox-group-1/game-server#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "heroku-cli": "^7.0.9",
     "socket.io": "^2.3.0"
   }
 }
